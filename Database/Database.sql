@@ -64,6 +64,8 @@ ALTER ROLE db_owner ADD MEMBER app_user;
 // For named instance:
 "ConnectionStrings": {
   "ApiDatabase": "Server=localhost\\SQL2022;Database=YourDatabaseName;User Id=app_user;Password=StrongP@ssw0rd!;"
+  OR
+  "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=StudentDB;Trusted_Connection=True; Encrypt=False;TrustServerCertificate=true;"
 }
 
 
